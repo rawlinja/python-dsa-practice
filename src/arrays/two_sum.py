@@ -1,5 +1,5 @@
 """
-Two Sum  —  Difficulty: Easy
+Two Sum  —  LC 1  —  Difficulty: Easy
 
 Given an array of integers `nums` and an integer `target`, return the INDICES
 of the two numbers that add up to `target`.

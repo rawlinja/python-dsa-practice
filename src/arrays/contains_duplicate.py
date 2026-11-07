@@ -1,5 +1,5 @@
 """
-Contains Duplicate  —  Difficulty: Easy
+Contains Duplicate  —  LC 217  —  Difficulty: Easy
 
 Given an integer array `nums`, return True if any value appears AT LEAST TWICE,
 and False if every element is distinct.

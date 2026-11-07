@@ -8,7 +8,7 @@ return True if the string is valid. A string is valid when:
   3. Every closing bracket has a corresponding opening bracket.
 
 Assumptions (clarified up front):
-  - 1 <= len(s) <= 10^4
+  - 1 <= len(s) <= 10**4
   - `s` contains only the six bracket characters.
 
 Examples:

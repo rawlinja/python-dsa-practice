@@ -1,5 +1,5 @@
 """
-Valid Anagram  —  Difficulty: Easy
+Valid Anagram  —  LC 242  —  Difficulty: Easy
 
 Given two strings `s` and `t`, return True if `t` is an anagram of `s`, and
 False otherwise. An anagram uses exactly the same characters with the same

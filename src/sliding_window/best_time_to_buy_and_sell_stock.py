@@ -6,8 +6,8 @@ choose ONE day to buy and a LATER day to sell. Return the maximum profit.
 If no profit is possible, return 0.
 
 Assumptions (clarified up front):
-  - 1 <= len(prices) <= 10^5
-  - 0 <= prices[i] <= 10^4
+  - 1 <= len(prices) <= 10**5
+  - 0 <= prices[i] <= 10**4
   - Buy day must come strictly before sell day.
   - At most one transaction; not trading at all yields 0.
 
