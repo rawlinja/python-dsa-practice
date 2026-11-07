@@ -1,0 +1,35 @@
+[project]
+name = "python-dsa-practice"
+version = "0.1.0"
+description = "Data structures and algorithms practice in Python, solved test-first"
+readme = "README.md"
+requires-python = ">=3.14"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.9.0",
+    # Pinned exactly so local and CI run the identical checker.
+    "pyright==1.1.411",
+]
+
+[tool.uv]
+# Practice repo, not a distributable package — deps only, nothing to build.
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra --import-mode=importlib"
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pyright]
+pythonVersion = "3.14"
+typeCheckingMode = "standard"
+include = ["src", "tests"]
